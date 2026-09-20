@@ -25,7 +25,7 @@ Landing page de una inmobiliaria de propiedades premium. Es una página de una s
 
 ```
 Zenith Realty landing page/
-├── Zenith Realty.dc.html      # La página: template, estilos y lógica del componente
+├── index.html                 # La página: template, estilos y lógica del componente
 ├── support.js                 # Runtime del formato .dc (generado, no editar)
 ├── uploads/
 │   ├── video_mejorado_calidad.mp4   # Video del hero (el que usa la página)
@@ -47,11 +47,11 @@ python -m http.server 8000
 npx serve .
 ```
 
-Después abrir <http://localhost:8000/Zenith%20Realty.dc.html>.
+Después abrir <http://localhost:8000>.
 
 ## Cómo editar el contenido
 
-Todo está en [Zenith Realty.dc.html](Zenith%20Realty.dc.html), dentro del método `renderVals()` al final del archivo:
+Todo está en [index.html](index.html), dentro del método `renderVals()` al final del archivo:
 
 - **Propiedades:** array `properties` (`title`, `price`, `location`, `area`, `floors`, `beds`, `baths`, `image`).
 - **Pasos del proceso:** array `processSteps`.
